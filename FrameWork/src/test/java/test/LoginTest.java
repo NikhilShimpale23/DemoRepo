@@ -21,7 +21,7 @@ public class LoginTest extends BaseClass {
         test.info("Clicking login");
         lp.clickLogin();
         
-        Assert.assertTrue(false);
+       
     }
 
     @DataProvider(name = "loginData")

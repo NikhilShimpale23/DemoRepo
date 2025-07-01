@@ -2,16 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="OrangeHRM Suite" parallel="false">
 
-  <!-- Attach your custom listener -->
-  <listeners>
-    <listener class-name="listeners.TestListener"/>
-  </listeners>
+	<!-- Attach your custom listener -->
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+	</listeners>
 
-  <test name="Login Test">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="test.LoginTest"/>
-    </classes>
-  </test>
+	<test name="Login Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="test.LoginTest" />
+			<class name="test.DemoTest1" />
+		</classes>
+	</test>
 
 </suite>

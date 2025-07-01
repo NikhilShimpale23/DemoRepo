@@ -12,6 +12,7 @@
 		<classes>
 			<class name="test.LoginTest" />
 			<class name="test.DemoTest1" />
+			<class name="test.TestClass" />
 		</classes>
 	</test>
 

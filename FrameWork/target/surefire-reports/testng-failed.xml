@@ -10,8 +10,8 @@
       <class name="test.LoginTest">
         <methods>
           <include name="setupReport"/>
+          <include name="validLoginTest"/>
           <include name="tearDown"/>
-          <include name="validLoginTest" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDownReport"/>
         </methods>
